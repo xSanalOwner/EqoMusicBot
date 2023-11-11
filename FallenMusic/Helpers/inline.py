@@ -34,7 +34,7 @@ pm_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="✅ Rəsmi Kanal", url="https://t.me/Rahid_44"
+            text="✅ Rəsmi Kanal", url="https://t.me/ferooresmi"
         ),
         InlineKeyboardButton(text="👨🏻‍💻 Bot Sahibi", user_id=config.OWNER_ID),
     ],
