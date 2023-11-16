@@ -37,7 +37,7 @@ app2 = Client(
 pytgcalls = PyTgCalls(app2)
 
 SUDOERS = filters.user()
-SUNAME = config.SUPPORT_CHAT.split("me/")[1]
+SUNAME = config.SUPPORT_CHAT.split("https://t.me/")[1]
 
 
 async def fallen_startup():
