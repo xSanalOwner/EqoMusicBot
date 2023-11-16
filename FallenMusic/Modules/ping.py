@@ -24,7 +24,7 @@ async def ping_fallen(_, message: Message):
     uptime = get_readable_time((upt))
 
     await hmm.edit_text(
-        f"""👨🏻‍💻 Aylin: `{resp}ᴍs`
+        f"""👨🏻‍💻 Paster: `{resp}ᴍs`
 
 <b><u>{BOT_NAME} Sistem Statistikası:</u></b>
 
