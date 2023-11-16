@@ -18,8 +18,8 @@ START_IMG = getenv("START_IMG", "https://telegra.ph/file/b7e66d35f9e3cc7f22771.j
 
 SESSION = getenv("SESSION","AgCbIEHS5SDs_yh-Q8RolLNsyapotT6vs8jv2p6gZw5PnEekr37bEGGc4nwSL2lbdGs1fCvhBDSnzlc44YKgR7ZYfGe3o92Ae4DSKMapRjFhW9xcPpIh0SJAzRZznmgjf1SzfcCV_MAZIzTCL577MTfpDG232XQVdN1nfoc7tGUhLAE-3_i-hugdzhEKM7gVGt_4iGbevMh6B3e4nfJoFj8uX8kB1JTxkq_2smzZY6jyFfUGU-jhD0QgqbNQ6A8dJBCw20gHtFfWsCECBUaW99vkUWfJT0T3GMGmOieFGGpM2WO26UaBgVN1emdjyVb_OjCC79Qo8pDU5i2kNdqitTdPAAAAAZ5TQW8A")
 
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/OliqarxTeam")
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/RelaxAndMee")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "OliqarxTeam")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "RelaxAndMee")
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5615367098").split()))
 
