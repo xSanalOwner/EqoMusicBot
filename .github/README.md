@@ -7,4 +7,4 @@
 ━━━━━━━━━━━━━━━━━━━━
 
 <b>HEROKU</b>
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Theferid/FerooMusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ElikoAndMee/AylinMusicBot)
