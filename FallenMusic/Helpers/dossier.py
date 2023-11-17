@@ -6,7 +6,8 @@ PM_START_TEXT = """
 
 Mənim bəzi faydalı xüsusiyyətləri olan telegram yayım botuyam. Youtube, Spotify, Resso, AppleMusic, Soundcloud və s. kimi platformaları istifadə edirəm.
 
-Məni qruplarınıza əlavə etməkdən çəkinməyin. """
+Məni qruplarınıza əlavə etməkdən çəkinməyin. 
+"""
 
 START_TEXT = """
 **Salam** {0}
