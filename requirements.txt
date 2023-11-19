@@ -15,4 +15,3 @@ git+https://github.com/joetats/youtube_search@master
 wget
 yt_dlp
 requests
-youtube_dl
