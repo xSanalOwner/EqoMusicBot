@@ -1,97 +1,117 @@
-import os
-
-import requests
-import yt_dlp
-from pyrogram import filters
-from pyrogram.enums import ChatType
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from youtube_search import YoutubeSearch
+# @FidanRobot
+# Sahib @HuseynH
+# Repo Açığdısa İcazəsis Götürmə Oğlum
+### Əkmə Oğlum
 
 from FallenMusic import BOT_MENTION, BOT_USERNAME, LOGGER, app
+import config
+from yt_dlp import YoutubeDL
+import os, requests, wget, youtube_dl, time, yt_dlp
+from random import randint
+from urllib.parse import urlparse
+from pyrogram.errors import FloodWait, MessageNotModified
+from pyrogram import Client, filters
+from youtube_search import YoutubeSearch
+from pyrogram.handlers import MessageHandler
+from pyrogram.types import (
+    InlineKeyboardButton,
+    InlineKeyboardMarkup,
+    Message
+)
+
+#### Əkmə Oğlum
+
+def time_to_seconds(time):
+    stringt = str(time)
+    return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(':'))))
 
 
-@app.on_message(filters.command(["song", "vsong", "video", "music"]))
-async def song(_, message: Message):
-    try:
-        await message.delete()
-    except:
-        pass
-    m = await message.reply_text("**🔍 Axtarıram...**")
+buttons = {
+  "markup_for_private": InlineKeyboardMarkup([[InlineKeyboardButton('Playlist 🎧', url=f'https://t.me/PasterXmusic')]]),
+  "add_to_group": InlineKeyboardMarkup([[InlineKeyboardButton('️✨️ Qrupa əlavə et ️✨️', url=f'https://t.me/pastermusicbot?startgroup=true')]]),
+}
 
-    query = "".join(" " + str(i) for i in message.command[1:])
+
+@app.on_message(filters.command(["song"]))
+def song(client, message):
+
+    message.delete()
+    user_id = message.from_user.id 
+    user_name = message.from_user.first_name 
+    chutiya = "["+user_name+"](tg://user?id="+str(user_id)+")"
+    
+    isteyen = message.from_user.first_name 
+    query = ''
+    for i in message.command[1:]:
+        query += ' ' + str(i)
+    print(query)
+    m = message.reply(f"🔎 **Axtarılır...{query}**")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
-        results = YoutubeSearch(query, max_results=5).to_dict()
+        results = YoutubeSearch(query, max_results=1).to_dict()
         link = f"https://youtube.com{results[0]['url_suffix']}"
-        title = results[0]["title"][:40]
+        #print(results)
+        title = results[0]["title"][:100]       
         thumbnail = results[0]["thumbnails"][0]
-        thumb_name = f"thumb{title}.jpg"
+        thumb_name = f'thumb@pastermusicbot.jpg'
         thumb = requests.get(thumbnail, allow_redirects=True)
-        open(thumb_name, "wb").write(thumb.content)
+        open(thumb_name, 'wb').write(thumb.content)
+
+### Oğurlamq Oğlum
+        performer = f"Unknown Artist"  
         duration = results[0]["duration"]
+        url_suffix = results[0]["url_suffix"]
+        views = results[0]["views"]
+        channel = results[0]["channel"]   
 
-    except Exception as ex:
-        LOGGER.error(ex)
-        return await m.edit_text(
-            f"youtube-dl-dən musiqi əldə etmək alınmadı.\n\n**Səbəb:** `{ex}`"
-        )
-
-    await m.edit_text("**📥 Göndərirəm...**")
+    except Exception as e:
+        m.edit("İstədiyiniz musiqi tapılmadı 😔")
+        print(str(e))
+        return
+    m.edit(f"🎵**{title}**")
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f"🎵 **Başlıq:** [{title[:23]}]({link})\n⏳ **Müddət:** `{duration}`\n🤖 **Bot:** {BOT_MENTION}"
-        secmul, dur, dur_arr = 1, 0, duration.split(":")
-        for i in range(len(dur_arr) - 1, -1, -1):
-            dur += int(dur_arr[i]) * secmul
+        caption_for_logchannel = f'''
+**╭───────────────**
+**├▷ 🎧 Başlıq: [{title}]({link})**
+**├───────────────**
+**├▷ 👁‍🗨 Baxış: {views}**
+**├───────────────**
+**├▷ 👤 İstəyən: {isteyen}**
+**├───────────────**
+**├▷ 🌀 Bot:  @pastermusicbot**
+**╰───────────────**
+'''
+        caption_for_private = f'''
+**╭───────────────**
+**├▷ 🎧 Başlıq: [{title}]({link})**
+**├───────────────**
+**├▷ 👁‍🗨 Baxış: {views}**
+**├───────────────**
+**├▷ 🌀 Bot:  @pastermusicbot**
+**╰───────────────**
+'''
+
+        secmul, dur, dur_arr = 1, 0, duration.split(':')
+        for i in range(len(dur_arr)-1, -1, -1):
+            dur += (int(dur_arr[i]) * secmul)
             secmul *= 60
-        try:
-            visit_butt = InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(
-                            text="🌐 YouTube",
-                            url=link,
-                        )
-                    ]
-                ]
-            )
-            await app.send_audio(
-                chat_id=message.from_user.id,
-                audio=audio_file,
-                caption=rep,
-                thumb=thumb_name,
-                title=title,
-                duration=dur,
-                reply_markup=visit_butt,
-            )
-            if message.chat.type != ChatType.PRIVATE:
-                await message.reply_text(
-                    "Zəhmət olmasa şəxsidə yoxlayın, istədiyiniz mahnını şəxsimdə yükləyə bilərsiniz"
-                )
-        except:
-            start_butt = InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(
-                            text="🤖 Şəxsiyə Keç",
-                            url=f"https://t.me/{BOT_USERNAME}?start",
-                        )
-                    ]
-                ]
-            )
-            return await m.edit_text(
-                text="Aşağıdakı düyməyə klikləyin və mahnı yükləmək üçün mənə şəxsidə yazın",
-                reply_markup=start_butt,
-            )
-        await m.delete()
-    except:
-        return await m.edit_text("Telegram serverlərinə audio yükləmək alınmadı")
+        m.edit("📤 Yüklənir..")
+        message.reply_audio(audio_file, caption=caption_for_private, quote=False, title=title, duration=dur, thumb=thumb_name, performer = f"PasterXmusic", reply_markup=buttons['markup_for_private'])
+        m.delete()
+        app.send_audio(chat_id=-1002115396481, audio=audio_file, caption=caption_for_logchannel, performer = f"@pastermusicbot", title=title, duration=dur, thumb=thumb_name, reply_markup=buttons['add_to_group'])
+    except Exception as e:
+        m.edit(f'**⚠️ Gözlənilməyən xəta yarandı.**\n**Xahiş edirəm xətanı @RelaxAndMee sahibimə xəbərdar et!**')
+        print(e)
 
     try:
         os.remove(audio_file)
         os.remove(thumb_name)
-    except Exception as ex:
-        LOGGER.error(ex)
+    except Exception as e:
+        print(e)
+
+#### Əkmə Oğlum
+### Sahib HuseynH Dəyişmədən Kimsəyə Vermədən İşlət 
