@@ -13,37 +13,37 @@
     "env": {
       "API_ID": {
         "description": "Bu dəyəri https://my.telegram.org saytından əldə edin",
-        "value": "29171757",
+        "value": "",
         "required": true
       },
       "API_HASH": {
         "description": "Bu dəyəri https://my.telegram.org saytından əldə edin",
-        "value": "f2a2d9619b545d116fc42b5fee5d592e",
+        "value": "",
         "required": true
       },
       "BOT_TOKEN": {
         "description": "Botfather-dən Bot nişanı",
-        "value": "6875746501:AAG9-S7mdLH6LZ9U14lA8s7-WizPacUgbxU",
+        "value": "",
         "required": true
       },
       "OWNER_ID": {
         "description": "İstifadəçi ID-nizi burada doldurun. (tam ədəd olmalıdır)",
-        "value": "6513170849",
+        "value": "",
         "required": true
       },
       "SESSION": {
         "description": "@Telegram-dan piroqram v2 sim seansı",
-        "value": "AgC1K4x0KosMYoQz80jGerXkQ70EpxMhbuscw5uXcVPSjfHvLpMAXwUp_bZ7cx5ihr7FCDP9yOyFDYwwPbiyOaydng_g3GMp6n2-xq0l4zvBpz7IV2Ed3ZyH9VCN-5-VxYKz7L6sWJOLYerNrJjFTLgy86IMyminOQj2nUYuPJcu8TeZREtKxyR9pG5J7EnYnZKuKjJRmVEfTFqIhUOIOC4TPdV5kMkXaYBx0VJfUDlZju9_3e1-lRa01eefIWsg2ejVUmWs-OrfORUuIAce-gifQLrSMaxpriHFhjx2TrnhA4sf4ePzhIfqtYKmGaQ-dxMzmbSUesKcrZRfrBDGafJ6AAAAAZ5TQW8A",
+        "value": "",
         "required": true
       },
       "SUDO_USERS": {
         "description": "Sudo kimi əlavə etmək istədiyiniz istifadəçi(lər)in istifadəçi id(ləri). Çoxsaylı dəyərlər boşluqla ayrılmalıdır.",
-        "value": "5615367098",
+        "value": "",
         "required": true
       },
       "SUPPORT_CHAT": {
         "description": "Telegram dəstək qrupunuzun linki. (İctimaiyyətdə olmalıdır)",
-        "value": "https://t.me/OliqarxTeam",
+        "value": "",
         "required": false
       }
     },
