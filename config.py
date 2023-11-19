@@ -16,7 +16,7 @@ OWNER_ID = int(getenv("OWNER_ID", "6513170849"))
 PING_IMG = getenv("PING_IMG", "https://telegra.ph/file/b7e66d35f9e3cc7f22771.jpg")
 START_IMG = getenv("START_IMG", "https://telegra.ph/file/b7e66d35f9e3cc7f22771.jpg")
 
-SESSION = getenv("SESSION","AgAF7JiTaEs5IX_VxQwF9vHwO02iLoJuLfhnGabS-E5foHVsc7gSAUuA7YyJnN4AQsZgsZCI-2sMZ8e5ccSDddyuKuPbKSh1-9csNT6KIPyhaZ6BAboW0oMdd6_uWAGtnhimZOuPd8_PWl-CG_Vhb5N6lSsnt__PFcqc549NABxtQ4UuxukI8-s-8oMSbn-pw3OSmVs0-d4UDxQdZv9fGakBI5O3Jdfex_gCvY8M4r-vsqjCNjkOzaP5k6UlgDkIyjwcmLuSiA9RhLeMDH_O2Ij6dUoKuUmHRo-wP67GIIbXbvKpFCvj41tRDr7aHFc0wn87ouJsaDYfJH-xC1JQTsTBAAAAAZ5TQW8A")
+SESSION = getenv("SESSION","AgC1K4x0KosMYoQz80jGerXkQ70EpxMhbuscw5uXcVPSjfHvLpMAXwUp_bZ7cx5ihr7FCDP9yOyFDYwwPbiyOaydng_g3GMp6n2-xq0l4zvBpz7IV2Ed3ZyH9VCN-5-VxYKz7L6sWJOLYerNrJjFTLgy86IMyminOQj2nUYuPJcu8TeZREtKxyR9pG5J7EnYnZKuKjJRmVEfTFqIhUOIOC4TPdV5kMkXaYBx0VJfUDlZju9_3e1-lRa01eefIWsg2ejVUmWs-OrfORUuIAce-gifQLrSMaxpriHFhjx2TrnhA4sf4ePzhIfqtYKmGaQ-dxMzmbSUesKcrZRfrBDGafJ6AAAAAZ5TQW8A")
 
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/OliqarxTeam")
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PasterXmusic")
