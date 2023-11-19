@@ -5,7 +5,6 @@
 
 from FallenMusic import BOT_MENTION, BOT_USERNAME, LOGGER, app
 import config
-from yt_dlp import YoutubeDL
 import os, requests, wget, time
 from random import randint
 from urllib.parse import urlparse
