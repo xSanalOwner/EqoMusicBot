@@ -6,12 +6,11 @@
 from FallenMusic import BOT_MENTION, BOT_USERNAME, LOGGER, app
 import config
 from yt_dlp import YoutubeDL
-import os, requests, wget, youtube_dl, time, yt_dlp
+import os, requests, wget, time, yt_dlp
 from random import randint
 from urllib.parse import urlparse
 from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram import Client, filters
-from youtube_search import YoutubeSearch
 from pyrogram.handlers import MessageHandler
 from pyrogram.types import (
     InlineKeyboardButton,
