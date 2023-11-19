@@ -29,12 +29,12 @@ pm_buttons = [
     ],
     [InlineKeyboardButton(text="📚 Bot Əmrləri", callback_data="fallen_help")],
     [
-        InlineKeyboardButton(text="📢 Kanal", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="🎧 Playlist", url=config.SUPPORT_CHANNEL),
         InlineKeyboardButton(text="💬 Söhbət Qrupu", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="✅ Rəsmi Kanal", url="https://t.me/ferooresmi"
+            text="✅ Rəsmi Kanal", url="https://t.me/ElikoResmi"
         ),
         InlineKeyboardButton(text="👨🏻‍💻 Bot Sahibi", user_id=config.OWNER_ID),
     ],
