@@ -49,12 +49,12 @@ gp_buttons = [
         )
     ],
     [
-        InlineKeyboardButton(text="📢 Kanal", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="🎧 Playlist", url=config.SUPPORT_CHANNEL),
         InlineKeyboardButton(text="💬 Söhbət Qrupu", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="✅ Rəsmi Kanal", url="ferooresmi"
+            text="✅ Rəsmi Kanal", url="ElikoResmi"
         ),
         InlineKeyboardButton(text="👨🏻‍💻 Bot Sahibi", user_id=config.OWNER_ID),
     ],
