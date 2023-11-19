@@ -13,12 +13,12 @@
     "env": {
       "API_ID": {
         "description": "Bu dəyəri https://my.telegram.org saytından əldə edin",
-        "value": "",
+        "value": "29171757",
         "required": true
       },
       "API_HASH": {
         "description": "Bu dəyəri https://my.telegram.org saytından əldə edin",
-        "value": "",
+        "value": "f2a2d9619b545d116fc42b5fee5d592e",
         "required": true
       },
       "BOT_TOKEN": {
@@ -28,7 +28,7 @@
       },
       "OWNER_ID": {
         "description": "İstifadəçi ID-nizi burada doldurun. (tam ədəd olmalıdır)",
-        "value": "",
+        "value": "6513170849",
         "required": true
       },
       "SESSION": {
@@ -43,7 +43,7 @@
       },
       "SUPPORT_CHAT": {
         "description": "Telegram dəstək qrupunuzun linki. (İctimaiyyətdə olmalıdır)",
-        "value": "",
+        "value": "https://t.me/OliqarxTeam",
         "required": false
       }
     },
