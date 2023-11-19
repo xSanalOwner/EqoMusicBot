@@ -13,8 +13,8 @@ DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 
 OWNER_ID = int(getenv("OWNER_ID", "6513170849"))
 
-PING_IMG = getenv("PING_IMG", "https://telegra.ph/file/70594049ed6facffd7578.jpg")
-START_IMG = getenv("START_IMG", "https://telegra.ph/file/9e54ff04d2ea3ff2e72fe.jpg")
+PING_IMG = getenv("PING_IMG", "https://telegra.ph/file/797d7fcda824e03ce099b.jpg")
+START_IMG = getenv("START_IMG", "https://telegra.ph/file/797d7fcda824e03ce099b.jpg")
 
 SESSION = getenv("SESSION","AgCInfoADronaLRqK7IYy02x5RxWt5u6I5nWH6AAvNVqLv1mZ0jviPKk7zi9citza8dyvsB7KRHDdNxSiRrSw00UUQWxeM9pm3WTJYayFJ8OOCwSvZqb-Z09CblsrA7G7qONuOpFkBwEJeNjo5a-fQjsvd69YMKI6aoVXlpOPsSMZ59TcpPe9ja3zHeLY4R-ALlpTr_uPQc2vwNpPBxpp2rq315gU90frHElcHjUHyM8qH7y5dZMWlDYve-MM2HtOdMTftTShSEfKOpkhXcYj7IP-Zq5lGgyiyUAYFTW2tI2J1GfXi6d3XX2Wl-oGMsMVE9TSUYo-u6cJVD8o41adaWI_Epx0wAAAAGLf_FFAA")
 
@@ -24,4 +24,4 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ElikoResmi")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6513170849").split()))
 
 
-FAILED = "https://telegra.ph/file/70594049ed6facffd7578.jpg"
+FAILED = "https://telegra.ph/file/797d7fcda824e03ce099b.jpg"
