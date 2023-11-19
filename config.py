@@ -8,7 +8,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "29171757"))
 API_HASH = getenv("API_HASH", "f2a2d9619b545d116fc42b5fee5d592e")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6875746501:AAG9-S7mdLH6LZ9U14lA8s7-WizPacUgbxU")
+BOT_TOKEN = getenv("BOT_TOKEN", "6184599558:AAEOKp_B_4XOEuskoKcVODPzkvsAkfTukjE")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 
 OWNER_ID = int(getenv("OWNER_ID", "6409880504"))
@@ -16,7 +16,7 @@ OWNER_ID = int(getenv("OWNER_ID", "6409880504"))
 PING_IMG = getenv("PING_IMG", "https://telegra.ph/file/b7e66d35f9e3cc7f22771.jpg")
 START_IMG = getenv("START_IMG", "https://telegra.ph/file/b7e66d35f9e3cc7f22771.jpg")
 
-SESSION = getenv("SESSION", "AgDAVqDj3qpWhdYXR0IEjPfp1SyVc1r-oRk6bl2vQ1OcNeVSR9iOJYFMMut0FjDX4DE0Vj6Zt7lGcKl8jjA1BK0JK5brXU9MJN5vEciLcvgZrFyM541Owx12WcAUQxrqCaHmWlEuo4aaMZt2lCEwN-qeVyf4Er762XipTJcXyRj6yEHvDaLlp3EIZxtpBVtJJYeYnxLtnytpDSGUnN2d7BpdS0DaHtzTaOHP99Hbup1hTp1IvFyAMJ78TjwjxwK0x2z7il4qPTmL3Lnoj0eygSNX6h0A1K38IIoeVtZC3Vf-6yi_Ss0YMm6IgnbBFMvJdDoKZRK3CYvQkdB4LluY5iYnAAAAAZ5TQW8A")
+SESSION = getenv("SESSION", "AgAjRm7-F8o-ZPMmrNBw5kunmu33epAYSGiDjaiDLi8csbpRxaGZZ3p9ZIlf3ub52t1XhYfUt4IEBfG7X6PiBzIllswd6t0qywIgqhsNhlLiwH6o2qBsg4mMQU1upvEKvZ_9FXfI0ScQnlGarXUqiuldk0mnGTWCn9aa_IAsOtGoHQvwTAzoznpQrcPe3h0HDyC725SwxkOpVGZbxagM3XnBmNv4mWZj_d0alEmC9a1iFI_Ssimsl6npmvf5Yia3hbs5C3wFNSmK0ddXsi32qboFo89srYk8VhcP5vs_l7qwiILwjJxS1AjRe01Dq_rUuThVpvUrOueA4yg3aqnkXJ1GAAAAAYt_8UUA")
 
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/OliqarxTeam")
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/RelaxBlogs")
