@@ -1,7 +1,7 @@
 ━━━━━━━━━━━━━━━━━━━━
 
 <h2 align="center">
-    ──「 Aylin Music 」──
+    ──「 Paster Music 」──
 </h2>
 
 ━━━━━━━━━━━━━━━━━━━━
