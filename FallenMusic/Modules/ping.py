@@ -24,7 +24,7 @@ async def ping_fallen(_, message: Message):
     uptime = get_readable_time((upt))
 
     await hmm.edit_text(
-        f"""👨🏻‍💻 Paster: `{resp}ᴍs`
+        f"""👨🏻‍💻 Feroo: `{resp}ᴍs`
 
 <b><u>{BOT_NAME} Sistem Statistikası:</u></b>
 
@@ -38,7 +38,7 @@ async def ping_fallen(_, message: Message):
                     InlineKeyboardButton("💬 Söhbət Qrupu", url=config.SUPPORT_CHAT),
                     InlineKeyboardButton(
                         "👨🏻‍💻 Bot Sahibi",
-                        url="https://t.me/GtaElgun",
+                        url="https://t.me/The_ferid",
                     ),
                 ],
             ]
