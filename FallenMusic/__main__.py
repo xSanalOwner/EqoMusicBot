@@ -36,7 +36,7 @@ async def fallen_startup():
     try:
         await app.send_message(
             SUNAME,
-            f"Aylin Music ♫︎\n\n𖢵 ID: `{BOT_ID}`\n𖢵 Ad: {BOT_NAME}\n𖢵 istifadəçi adı: @{BOT_USERNAME}",
+            f"Ayşen Music ♫︎\n\n𖢵 ID: `{BOT_ID}`\n𖢵 Ad: {BOT_NAME}\n𖢵 istifadəçi adı: @{BOT_USERNAME}",
         )
     except:
         LOGGER.error(
@@ -46,7 +46,7 @@ async def fallen_startup():
     try:
         await app2.send_message(
             SUNAME,
-            f"✯ Aylin Music Bot Assistent ✯\n\n𖢵 ID: `{ASS_ID}`\n𖢵 Ad: {ASS_NAME}\n𖢵 istifadəçi adı: @{ASS_USERNAME}",
+            f"✯ Ayşen Music Bot Assistent ✯\n\n𖢵 ID: `{ASS_ID}`\n𖢵 Ad: {ASS_NAME}\n𖢵 istifadəçi adı: @{ASS_USERNAME}",
         )
     except:
         LOGGER.error(
@@ -67,4 +67,4 @@ async def fallen_startup():
 
 if __name__ == "__main__":
     asyncio.get_event_loop().run_until_complete(fallen_startup())
-    LOGGER.error("Aylin musiqi botu dayandı.")
+    LOGGER.error("Ayşen musiqi botu dayandı.")
