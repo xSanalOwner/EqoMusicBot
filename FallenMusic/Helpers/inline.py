@@ -54,7 +54,7 @@ gp_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="✅ Rəsmi Kanal", url="ElikoResmi"
+            text="✅ Rəsmi Kanal", url="FerooResmi"
         ),
         InlineKeyboardButton(text="👨🏻‍💻 Bot Sahibi", user_id=config.OWNER_ID),
     ],
