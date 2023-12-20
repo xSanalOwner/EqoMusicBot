@@ -27,8 +27,8 @@ def time_to_seconds(time):
 
 
 buttons = {
-  "markup_for_private": InlineKeyboardMarkup([[InlineKeyboardButton('Playlist 🎧', url=f'https://t.me/PasterXmusic')]]),
-  "add_to_group": InlineKeyboardMarkup([[InlineKeyboardButton('️✨️ Qrupa əlavə et ️✨️', url=f'https://t.me/pastermusicbot?startgroup=true')]]),
+  "markup_for_private": InlineKeyboardMarkup([[InlineKeyboardButton('Playlist 🎧', url=f'https://t.me/Ferooplaylist')]]),
+  "add_to_group": InlineKeyboardMarkup([[InlineKeyboardButton('️✨️ Qrupa əlavə et ️✨️', url=f'https://t.me/AysenMusicRobot?startgroup=true')]]),
 }
 
 
@@ -82,7 +82,7 @@ def song(client, message):
 **├───────────────**
 **├▷ 👤 İstəyən: {isteyen}**
 **├───────────────**
-**├▷ 🌀 Bot:  @pastermusicbot**
+**├▷ 🌀 Bot:  @AysenMusicRobot**
 **╰───────────────**
 '''
         caption_for_private = f'''
@@ -91,7 +91,7 @@ def song(client, message):
 **├───────────────**
 **├▷ 👁‍🗨 Baxış: {views}**
 **├───────────────**
-**├▷ 🌀 Bot:  @pastermusicbot**
+**├▷ 🌀 Bot:  @AysenMusicRobot**
 **╰───────────────**
 '''
 
@@ -100,11 +100,11 @@ def song(client, message):
             dur += (int(dur_arr[i]) * secmul)
             secmul *= 60
         m.edit("📤 Yüklənir..")
-        message.reply_audio(audio_file, caption=caption_for_private, quote=False, title=title, duration=dur, thumb=thumb_name, performer = f"PasterXmusic", reply_markup=buttons['markup_for_private'])
+        message.reply_audio(audio_file, caption=caption_for_private, quote=False, title=title, duration=dur, thumb=thumb_name, performer = f"AysenMusicRobot", reply_markup=buttons['markup_for_private'])
         m.delete()
-        app.send_audio(chat_id=-1002072917112, audio=audio_file, caption=caption_for_logchannel, performer = f"@pastermusicbot", title=title, duration=dur, thumb=thumb_name, reply_markup=buttons['add_to_group'])
+        app.send_audio(chat_id=-1002072917112, audio=audio_file, caption=caption_for_logchannel, performer = f"@AysenMusicRobot", title=title, duration=dur, thumb=thumb_name, reply_markup=buttons['add_to_group'])
     except Exception as e:
-        m.edit(f'**⚠️ Gözlənilməyən xəta yarandı.**\n**Xahiş edirəm xətanı @RelaxAndMee sahibimə xəbərdar et!**')
+        m.edit(f'**⚠️ Gözlənilməyən xəta yarandı.**\n**Xahiş edirəm xətanı @The_ferid sahibimə xəbərdar et!**')
         print(e)
 
     try:
