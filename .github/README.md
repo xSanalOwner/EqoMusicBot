@@ -1,10 +1,10 @@
 ━━━━━━━━━━━━━━━━━━━━
 
 <h2 align="center">
-    ──「 Ayşen Music 」──
+    ──「 Paster Music 」──
 </h2>
 
 ━━━━━━━━━━━━━━━━━━━━
 
 <b>HEROKU</b>
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Theferid/Ay-enMusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ElikoAndMee/pastermusicbot-1)
