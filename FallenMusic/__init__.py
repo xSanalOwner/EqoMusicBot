@@ -28,7 +28,7 @@ app = Client(
 )
 
 app2 = Client(
-    "Ayşen Music Bot Assistent",
+    "Paster Music Bot Assistant",
     api_id=config.API_ID,
     api_hash=config.API_HASH,
     session_string=str(config.SESSION),
