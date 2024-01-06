@@ -29,14 +29,14 @@ pm_buttons = [
     ],
     [InlineKeyboardButton(text="📚 Bot Əmrləri", callback_data="fallen_help")],
     [
-        InlineKeyboardButton(text="🎧 Playlist", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="💬 Söhbət Qrupu", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="Playlist 🎧", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="Söhbət Qrupu 💬", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="✅ Rəsmi Kanal", url="https://t.me/FerooResmi"
+            text="Rəsmi Kanal 📣", url="https://t.me/ElikoResmi"
         ),
-        InlineKeyboardButton(text="👨🏻‍💻 Bot Sahibi", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="Bot Sahibi 🧑‍💻", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -49,14 +49,14 @@ gp_buttons = [
         )
     ],
     [
-        InlineKeyboardButton(text="🎧 Playlist", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="💬 Söhbət Qrupu", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="Playlist 🎧", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="Söhbət Qrupu 💬", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="✅ Rəsmi Kanal", url="FerooResmi"
+            text="Rəsmi Kanal 📣", url="ElikoResmi"
         ),
-        InlineKeyboardButton(text="👨🏻‍💻 Bot Sahibi", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="Bot Sahibi 🧑‍💻", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -80,7 +80,7 @@ helpmenu = [
 
 
 help_back = [
-    [InlineKeyboardButton(text="💬 Söhbət Qrupu", url=config.SUPPORT_CHAT)],
+    [InlineKeyboardButton(text="Söhbət Qrupu 💬", url=config.SUPPORT_CHAT)],
     [
         InlineKeyboardButton(text="🔙 Geri", callback_data="fallen_help"),
         InlineKeyboardButton(text="✖️ Bağla", callback_data="close"),
