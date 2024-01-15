@@ -104,7 +104,7 @@ def song(client, message):
         m.delete()
         app.send_audio(chat_id=-1002072917112, audio=audio_file, caption=caption_for_logchannel, performer = f"@PasterMusicBot", title=title, duration=dur, thumb=thumb_name, reply_markup=buttons['add_to_group'])
     except Exception as e:
-        m.edit(f'**⚠️ Gözlənilməyən xəta yarandı.**\n**Xahiş edirəm xətanı @GtaElgun sahibimə xəbərdar et!**')
+        m.edit(f'**⚠️ Gözlənilməyən xəta yarandı.**\n**Xahiş edirəm xətanı @TheisEliko sahibimə xəbərdar et!**')
         print(e)
 
     try:
