@@ -11,7 +11,7 @@ API_HASH = getenv("API_HASH", "75dee2d6b24b0ed686ab19b42efa7a32")
 BOT_TOKEN = getenv("BOT_TOKEN", "6875746501:AAEUwzo5JFdQr75Oll6e8E4MmeBG1-uGMak-2_2PjmTy0")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 
-OWNER_ID = int(getenv("OWNER_ID", "6859815593"))
+OWNER_ID = int(getenv("OWNER_ID", "6184111182"))
 
 PING_IMG = getenv("PING_IMG", "https://telegra.ph/file/1b08429e371b92a1fc483.jpg")
 START_IMG = getenv("START_IMG", "https://telegra.ph/file/1b08429e371b92a1fc483.jpg")
@@ -20,7 +20,7 @@ SESSION = getenv("SESSION","AgCWkXMzNaK69ZKWc_AOHSee_3HMJbWALGEGA2yvE-oP0ga17FVj
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/KarabakhSoldiers")
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PasterXmusic")
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6859815593").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6184111182").split()))
 
 
 FAILED = "https://telegra.ph/file/1b08429e371b92a1fc483.jpg"
