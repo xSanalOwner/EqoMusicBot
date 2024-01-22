@@ -34,7 +34,7 @@ pm_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="Rəsmi Kanal 📣", url="https://t.me/ElikoResmi"
+            text="Rəsmi Kanal 📣", url="https://t.me/PasterBots"
         ),
         InlineKeyboardButton(text="Bot Sahibi 🧑‍💻", user_id=config.OWNER_ID),
     ],
@@ -54,7 +54,7 @@ gp_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="Rəsmi Kanal 📣", url="ElikoResmi"
+            text="Rəsmi Kanal 📣", url="PasterBots"
         ),
         InlineKeyboardButton(text="Bot Sahibi 🧑‍💻", user_id=config.OWNER_ID),
     ],
