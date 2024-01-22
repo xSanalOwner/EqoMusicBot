@@ -11,7 +11,7 @@ API_HASH = getenv("API_HASH", "75dee2d6b24b0ed686ab19b42efa7a32")
 BOT_TOKEN = getenv("BOT_TOKEN", "6875746501:AAEUwzo5JFdQr75Oll6e8E4MmeBG1-uGMak")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 
-OWNER_ID = int(getenv("OWNER_ID", "6184111182"))
+OWNER_ID = int(getenv("OWNER_ID", "6501496600"))
 
 PING_IMG = getenv("PING_IMG", "https://telegra.ph/file/f1b8f168573133d4f0e93.jpg")
 START_IMG = getenv("START_IMG", "https://telegra.ph/file/f1b8f168573133d4f0e93.jpg")
@@ -20,7 +20,7 @@ SESSION = getenv("SESSION","AgBx0QVbZhEUf7YHfSsW6Smf0LIewXEcWK0u6kmCjO32Pqkx1f7r
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MonsterFamilyAz")
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PasterXmusic")
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6184111182").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6501496600").split()))
 
 
 FAILED = "https://telegra.ph/file/f1b8f168573133d4f0e93.jpg"
