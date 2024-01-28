@@ -1,7 +1,6 @@
 {
     "name": "RaviVeyi ダ Music",
     "description": "Pyrogram və Py-Tgcalls ilə Python dilində yazılmış teleqram videoçatları üçün VC Player Botu.",
-    "logo": "https://telegra.ph/file/b7e66d35f9e3cc7f22771.jpg",
     "buildpacks": [
           {
               "url": "heroku/python"
