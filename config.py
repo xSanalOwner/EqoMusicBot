@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", "20272501"))
-API_HASH = getenv("API_HASH", "75dee2d6b24b0ed686ab19b42efa7a32")
+API_ID = int(getenv("API_ID", "23918923"))
+API_HASH = getenv("API_HASH", "70c754805279d6e670658b17367853b6")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "6875746501:AAEUwzo5JFdQr75Oll6e8E4MmeBG1-uGMak")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
@@ -16,8 +16,8 @@ OWNER_ID = int(getenv("OWNER_ID", "6501496600"))
 PING_IMG = getenv("PING_IMG", "https://telegra.ph/file/32787c71a347e0613a944.jpg")
 START_IMG = getenv("START_IMG", "https://telegra.ph/file/32787c71a347e0613a944.jpg")
 
-SESSION = getenv("SESSION","AgBx0QVbZhEUf7YHfSsW6Smf0LIewXEcWK0u6kmCjO32Pqkx1f7rIziqPA4OFgm4aKc7mn7HnnBGnlVdQeufyN3lZjL243XyIe1x41dkZXLsgbV8gaje85A5lWitPHZQaqaUwiIV1Dps9SVyGMlKhOGOnsVPs5Us9sVik5ITRx9_sSswalQYz2FpeZRlWMf6tECE3qOUHP-V7oetBNQ--5eVO2VKLty4RFBhahJ8J29iV-rDZv99w378CIMSM8crLmF9flTgrcj9lLmF3BJTzHHqSd9l-ntUe6GFq3FFz44-K2pt-iBmtnNuwztXzB-GbaGEr5Iy8dSznGQsNa74lDSVAAAAAZGueh4A")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MonsterFamilyAz")
+SESSION = getenv("SESSION","BABToMYe5kz8KUH5OnqIm_F0X7-VGcM5ToVF9_b8YYXcW2a3AOnggiQvBHV51wcaGVlWQmrG4wx82TftpAQkL7XKwY2wcaRrzLePy4gW6WwH2UmzkTq0GoS9iojFNYlRg7_kDA4fbq_BBZ42Zm_k35p5YR1fyZXlqwunBlG7JQnK0BmzOAGW_Ui_yC0HgU5A8-SmyKL08Jb48L3oza4Q7G_OdF22CHCsq1uTsL6CwVHrR4HToC4cBx9KkEy0cKdS-BdTwRnsdiVEABWbM18yK1fIOLUauXde57P7fmvw1hZYEuxyKHrNYLyu2w61hcUlA6HZySY7taq84jqquqHJ04mMAAAAAZLZtwYA")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/FearlesTeams")
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PasterXmusic")
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6501496600").split()))
