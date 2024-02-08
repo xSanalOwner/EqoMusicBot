@@ -8,7 +8,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "21891603"))
 API_HASH = getenv("API_HASH", "a0410f8f403e4b150f3118c725a83cc1")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6370639090:AAGc3790U0o-19aMpnJUJbgDSmBCTnxkBa0")
+BOT_TOKEN = getenv("BOT_TOKEN", "6713345760:AAEzkY8484n1Ceitqz6X3aw2cLQdTEipJw0")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 
 OWNER_ID = int(getenv("OWNER_ID", "5997196226"))
@@ -20,7 +20,7 @@ SESSION = getenv("SESSION","AgCM8cgJBsGXtrGSzcOjNKYC07fQe0HiVnP5a-XkTKO1ArCdDHwB
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AmazingChatSS")
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/EqoMusicPlaylist")
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5567060261").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5997196226").split()))
 
 
 FAILED = "https://telegra.ph/file/219642edbf3d6634e4a5e.jpg"
