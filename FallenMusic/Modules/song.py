@@ -82,7 +82,7 @@ def song(client, message):
 **├───────────────**
 **├▷ 👤 İstəyən: {isteyen}**
 **├───────────────**
-**├▷ 🌀 Bot:  @SSMusicRobot**
+**├▷ 🌀 Bot:  @EqoMusicBot**
 **╰───────────────**
 '''
         caption_for_private = f'''
@@ -91,7 +91,7 @@ def song(client, message):
 **├───────────────**
 **├▷ 👁‍🗨 Baxış: {views}**
 **├───────────────**
-**├▷ 🌀 Bot:  @SSMusicRobot**
+**├▷ 🌀 Bot:  @EqoMusicBot**
 **╰───────────────**
 '''
 
@@ -100,11 +100,11 @@ def song(client, message):
             dur += (int(dur_arr[i]) * secmul)
             secmul *= 60
         m.edit("📤 Yüklənir..")
-        message.reply_audio(audio_file, caption=caption_for_private, quote=False, title=title, duration=dur, thumb=thumb_name, performer = f"SSMusicRobot", reply_markup=buttons['markup_for_private'])
+        message.reply_audio(audio_file, caption=caption_for_private, quote=False, title=title, duration=dur, thumb=thumb_name, performer = f"EqoMusicBot", reply_markup=buttons['markup_for_private'])
         m.delete()
-        app.send_audio(chat_id=-1002027222854, audio=audio_file, caption=caption_for_logchannel, performer = f"@SSMusicRobot", title=title, duration=dur, thumb=thumb_name, reply_markup=buttons['add_to_group'])
+        app.send_audio(chat_id=-1002066818667, audio=audio_file, caption=caption_for_logchannel, performer = f"@EqoMusicBot", title=title, duration=dur, thumb=thumb_name, reply_markup=buttons['add_to_group'])
     except Exception as e:
-        m.edit(f'**⚠️ Gözlənilməyən xəta yarandı.**\n**Xahiş edirəm xətanı @khalilovss sahibimə xəbərdar et!**')
+        m.edit(f'**⚠️ Gözlənilməyən xəta yarandı.**\n**Xahiş edirəm xətanı @Mehdiyev_o20 sahibimə xəbərdar et!**')
         print(e)
 
     try:
