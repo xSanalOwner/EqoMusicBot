@@ -5,20 +5,20 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", "28167952"))
-API_HASH = getenv("API_HASH", "27618e15dd9a461849bbe5800413346f")
+API_ID = int(getenv("API_ID", "21891603"))
+API_HASH = getenv("API_HASH", "a0410f8f403e4b150f3118c725a83cc1")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "6370639090:AAGc3790U0o-19aMpnJUJbgDSmBCTnxkBa0")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 
-OWNER_ID = int(getenv("OWNER_ID", "5567060261"))
+OWNER_ID = int(getenv("OWNER_ID", "5997196226"))
 
 PING_IMG = getenv("PING_IMG", "https://telegra.ph/file/219642edbf3d6634e4a5e.jpg")
 START_IMG = getenv("START_IMG", "https://telegra.ph/file/219642edbf3d6634e4a5e.jpg")
 
-SESSION = getenv("SESSION","AgADSTwbjnfTScnqVohIzWV9zHZsebypnlH8QmQx1vqlMWe6tTEWPA3ZusqHMswVKGFF_iWxT41nmgCrzgPndujQwwRAR9a6J2VWX9CvBZ2S8-XDyRT8NZjuNVGR6yc3JXgPZ24K5W6rmXjXstnfFWsDqYs72eO8PfLlPNlyQEgAheucfYAddzEsFbP7yq2JjYr8FdwjQbbnND-pOBwMSvAzn28ZdJAwfjNXrroRGsT5_NKcCV1nDOBYtmqnRvCSDMD7cepFHa0rkPb4VBszdQ3Tr1QOhk5EhrNCAUoP37osJCMjo0uCsSwTolO8eNqzjyPS9G3XOGCeLeKEzS4pUiLGAAAAAXTQeH8A")
+SESSION = getenv("SESSION","AgCM8cgJBsGXtrGSzcOjNKYC07fQe0HiVnP5a-XkTKO1ArCdDHwBtTb4R6wuuDL66rHdtyy0lTQEGuJA2G6TG1pc6GWfBp932025czSb-Kn6TFjVqcN5yYl7eSdAcXZWqv10v5zHlaIYaELhBxN9L4R-bzeCdk2Y-JboVS-VNtqdSoi9oYviMWghynzs5YAYYjn7zA-Xv5sIQiWv9mEagYlGR7f5gf6ern4h2ylhUFe5i7fS9s4hYIaMM2dQ0vIuMip5ryG2AgHaqajothyVjnWlwNKmDXZp5S3tAZUTvIiSy8GhicjUDIBl1BwNqZP8srt6lmaoPi1_a1GGUQbGsPK0AAAAAYlTB5YA")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AmazingChatSS")
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ssmusiclist")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/EqoMusicPlaylist")
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5567060261").split()))
 
