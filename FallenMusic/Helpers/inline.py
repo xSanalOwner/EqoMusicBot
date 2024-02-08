@@ -34,9 +34,9 @@ pm_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="Rəsmi Kanal 📣", url="https://t.me/khalilovblogs"
+            text="Rəsmi Kanal 📢", url="https://t.me/MehdiBlogg"
         ),
-        InlineKeyboardButton(text="Bot Sahibi 🧑‍💻", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="Creator 🧑‍💻", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -54,9 +54,9 @@ gp_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="Rəsmi Kanal 📣", url="hhttps://t.me/khalilovblogs"
+            text="Rəsmi Kanal 📢", url="hhttps://t.me/MehdiBlogg"
         ),
-        InlineKeyboardButton(text="Bot Sahibi 🧑‍💻", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="Creator 🧑‍💻", user_id=config.OWNER_ID),
     ],
 ]
 
