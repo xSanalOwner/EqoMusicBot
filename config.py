@@ -16,7 +16,7 @@ OWNER_ID = int(getenv("OWNER_ID", "6944685509"))
 PING_IMG = getenv("PING_IMG", "https://telegra.ph/file/de3bbbf56a078bf4b5b1f.jpg")
 START_IMG = getenv("START_IMG", "https://telegra.ph/file/de3bbbf56a078bf4b5b1f.jpg")
 
-SESSION = getenv("SESSION","AgBZSDdYk7XphEuwS0ebYHjbn2iqGsNP8BK_DWZaoFR27Skq6dLJQD56llRiTGuXQ3ISExAMl9WvNFMEx8pfNDDaMSLzyP84GpwHcW65RYcvPaw9kgjg3mVbDQz9nxXd2jhVvyd1ljOKXDIEgs8lCZjWWb81tyIrSkJ11RpaMGLVl_V4BrfR1rH9fLwmKkNsnbDliG-yXCZOiUuAvnMikK7V3Js7QllTFdJy4QgniJj-83U3dedwFDD-RvrE8j37RrMV_OyYNhy5SKlDFoCStdAyxLdPd0HXb4aD4qBm7r5WVk5GAncjKVEoX8JSbJ0J7hKAXqxUu8R_NqAJdCzMVkQ-AAAAAaY_nhkA
+SESSION = getenv("SESSION","AgBZSDdYk7XphEuwS0ebYHjbn2iqGsNP8BK_DWZaoFR27Skq6dLJQD56llRiTGuXQ3ISExAMl9WvNFMEx8pfNDDaMSLzyP84GpwHcW65RYcvPaw9kgjg3mVbDQz9nxXd2jhVvyd1ljOKXDIEgs8lCZjWWb81tyIrSkJ11RpaMGLVl_V4BrfR1rH9fLwmKkNsnbDliG-yXCZOiUuAvnMikK7V3Js7QllTFdJy4QgniJj-83U3dedwFDD-RvrE8j37RrMV_OyYNhy5SKlDFoCStdAyxLdPd0HXb4aD4qBm7r5WVk5GAncjKVEoX8JSbJ0J7hKAXqxUu8R_NqAJdCzMVkQ-AAAAAaY_nhkA")
 
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/LyuksGroups")
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/RikaPlaylist")
