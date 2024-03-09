@@ -5,22 +5,23 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", "21891603"))
-API_HASH = getenv("API_HASH", "a0410f8f403e4b150f3118c725a83cc1")
+API_ID = int(getenv("API_ID", "27715768"))
+API_HASH = getenv("API_HASH", "7276a0bc7e5eafbeea78669fa0f3fd6b")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6713345760:AAEzkY8484n1Ceitqz6X3aw2cLQdTEipJw0")
+BOT_TOKEN = getenv("BOT_TOKEN", "6310087186:AAEByv-qT-KOsR1UzM_L6N5VoCImtRBAZiE")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 
-OWNER_ID = int(getenv("OWNER_ID", "5997196226"))
+OWNER_ID = int(getenv("OWNER_ID", "6944685509"))
 
-PING_IMG = getenv("PING_IMG", "https://telegra.ph/file/7fd65ce55771e1daa6530.jpg")
-START_IMG = getenv("START_IMG", "https://telegra.ph/file/7fd65ce55771e1daa6530.jpg")
+PING_IMG = getenv("PING_IMG", "https://telegra.ph/file/de3bbbf56a078bf4b5b1f.jpg")
+START_IMG = getenv("START_IMG", "https://telegra.ph/file/de3bbbf56a078bf4b5b1f.jpg")
 
-SESSION = getenv("SESSION","AgCM8cgJBsGXtrGSzcOjNKYC07fQe0HiVnP5a-XkTKO1ArCdDHwBtTb4R6wuuDL66rHdtyy0lTQEGuJA2G6TG1pc6GWfBp932025czSb-Kn6TFjVqcN5yYl7eSdAcXZWqv10v5zHlaIYaELhBxN9L4R-bzeCdk2Y-JboVS-VNtqdSoi9oYviMWghynzs5YAYYjn7zA-Xv5sIQiWv9mEagYlGR7f5gf6ern4h2ylhUFe5i7fS9s4hYIaMM2dQ0vIuMip5ryG2AgHaqajothyVjnWlwNKmDXZp5S3tAZUTvIiSy8GhicjUDIBl1BwNqZP8srt6lmaoPi1_a1GGUQbGsPK0AAAAAYlTB5YA")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/brend_sohbett")
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/EqoMusicPlaylist")
+SESSION = getenv("SESSION","AgBZSDdYk7XphEuwS0ebYHjbn2iqGsNP8BK_DWZaoFR27Skq6dLJQD56llRiTGuXQ3ISExAMl9WvNFMEx8pfNDDaMSLzyP84GpwHcW65RYcvPaw9kgjg3mVbDQz9nxXd2jhVvyd1ljOKXDIEgs8lCZjWWb81tyIrSkJ11RpaMGLVl_V4BrfR1rH9fLwmKkNsnbDliG-yXCZOiUuAvnMikK7V3Js7QllTFdJy4QgniJj-83U3dedwFDD-RvrE8j37RrMV_OyYNhy5SKlDFoCStdAyxLdPd0HXb4aD4qBm7r5WVk5GAncjKVEoX8JSbJ0J7hKAXqxUu8R_NqAJdCzMVkQ-AAAAAaY_nhkA
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6184111182").split()))
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/LyuksGroups")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/RikaPlaylist")
+
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6944685509").split()))
 
 
-FAILED = "https://telegra.ph/file/7fd65ce55771e1daa6530.jpg"
+FAILED = "https://telegra.ph/file/de3bbbf56a078bf4b5b1f.jpg"
