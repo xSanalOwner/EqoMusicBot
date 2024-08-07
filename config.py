@@ -18,7 +18,7 @@ START_IMG = getenv("START_IMG", "https://telegra.ph/file/de3bbbf56a078bf4b5b1f.j
 
 SESSION = getenv("SESSION","BAGPBUMAKbGxnAY4N_Ld4limntU14zOf4XjX1fFumniYAzdlZ9BbOzMAdMU1-C8JwZCKFS08nEDMr0aO-iSOoIajJmfY5eAl-krtnKHJwdrm4jEuKNqIKsyeuBbsufibEdYQuJJZ6BO57lU9ohna18JbcLrwgJXtBrXZpFblf6ZhU_SI8faJXxsD_uY3rtOewnVnA3VD5C8nIrmMLXghPPhxJ0IvlrzLSzC4uADXnxb5t-dEcS2drGjND1pUB8PN3Jpv7lXJz3ZVL0TEwODuLJiNGTHoHIGyeTsaVQQqei5wuvSah_zS_OlVymmGe4tpnhCsuITmPNaidSoZsODUkfbvCGZRTAAAAAGS2bcGAA")
 
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/LyuksGroups")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/sohbetazerbaycan1")
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/RikaPlaylist")
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6944685509").split()))
